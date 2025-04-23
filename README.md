@@ -15,5 +15,3 @@ conda activate analogy
 ```
 
 and you should be go to go.
-
-All the main code in in main.ipynb

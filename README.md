@@ -1,17 +1,30 @@
-# Reldom Clustering
+# Bunge Lab Clustering
 
-Make sure you have miniconda installed.
+## Setup
 
-Clone the repo and then cd into it. Run
+Make sure you have [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main) installed.
+
+1. **Clone the repository**
 
 ```bash
-./setup.sh
+git clone https://github.com/kvaikunthan/ReldomClustering
+cd ReldomClustering
 ```
 
-Afterward, run
+2. **Create the environment**
+
+```bash
+conda env create -f environment.yml
+```
+
+3. **Activate the environment**
 
 ```bash
 conda activate analogy
 ```
 
-and you should be go to go.
+## Notebook Overview
+
+- `main.ipynb` – Data preprocessing and KMeans clustering
+- `pca.ipynb` – Principal Component Analysis (PCA) of clustered data
+- `2D.ipynb` – 2D scatter plot of participants

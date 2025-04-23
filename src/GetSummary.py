@@ -36,9 +36,3 @@ def summary(dir):
     })
 
     return summary
-
-
-if __name__=='__main__':
-    participantDir = 'data/participantdata/reldom2_s002'
-    df = summary(participantDir)
-    print(df)
